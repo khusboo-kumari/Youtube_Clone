@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #8fbce4;
+  }
+  
+  .countdown-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 100px auto;
+  }
+  
+  .countdown-box {
+    background-color: #697ad6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1;
+    /* opacity: 0.8; */
+  }
+  .countdown-box h2 {
+    color: #333;
+    font-size: 1.5em; /* Adjusting font size for labels */
+  }
+  
+  .countdown-box h2 {
+    color: #333;
+  }
+  
+  .countdown-number {
+    font-size: 3em;
+    color: #eeeae9; /* Change the color to your preference */
+  }
+  
