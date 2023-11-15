@@ -1,0 +1,569 @@
+/* 
+ body{
+  margin: 0px;
+  padding: 0px;
+} */
+
+/*  Sir wala  */
+
+/* .header{
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(23, 23, 24);
+}
+
+
+.header-items{
+  display: flex;
+  align-items: center;
+}
+
+.header-first{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  margin-right: 5px;
+}
+.header-second{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+}
+
+
+
+.header-search{
+  height: 40px;
+  width: 30vw;
+  background-color: cadetblue;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 15px;
+  border: 1px solid rgb(150, 189, 150); 
+}
+
+.header-mic{
+  width: 50px;
+  height: 50px;
+  background-color: burlywood;
+  border-radius: 50%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-tools{
+  height: 50px;
+  width: 100px;
+  background-color: gray;
+  border-radius: 25px;
+}
+
+.main-section{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+}   
+.main-left{
+  width: 15%;
+  border-right: 2px solid rgb(47, 165, 255);
+  display: flex;
+  flex-direction: column;
+} 
+
+#yt-logo{
+  height: 50px;
+  width: 90px;
+}
+
+
+
+.search-button{
+  border: 1px solid rgb(150, 189, 150); 
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 5px;
+
+}
+
+.small-image{
+  width: 25px;
+  height: 25px;
+}
+
+.main-right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.thumbnail{
+  margin: 10px;
+  width: 30%;
+}
+
+.video-title{
+  display: flex;
+  padding: 2px;
+}
+
+.track-title{
+  font-size: 14px;
+}
+
+.margin-0{
+  margin: 0;
+}
+
+.smaller-fontsize{
+  font-size: smaller;
+}
+
+.video-info{
+  padding-left: 10px;
+}
+
+
+.yt-side-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgb(150, 189, 150); 
+ border-radius: 5%;
+}
+
+
+.side-button-label{
+  margin-left: 20px;
+  margin-right: 30px;
+} */
+
+/* .search-icon{
+  font-size: 20px;
+}
+
+
+
+.signin-btn{
+  height: 30px;
+  width: 80px;
+  border: 1px solid rgb(150, 189, 150); 
+  background-color: burlywood;
+  border-radius: 25px;
+  color: blueviolet;
+} */
+
+/*  BOKSAAA WALAAA */
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  background-color: black;
+  /* margin: 5px; */
+}
+
+#yt-logo {
+  height: 80px;
+  width: 125px;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+}
+
+.header-search {
+  height: 37px;
+  width: 30vw;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 15px;
+  background-color: black;
+  border: 1px solid rgb(176, 175, 175);
+}
+
+.search-button {
+  border: 1px solid rgb(121, 119, 119);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(37, 37, 37);
+  width: 66px;
+  padding: 5px;
+}
+
+.search-icon {
+  font-size: 23px;
+  color: white;
+  background-color: rgb(37, 37, 37);
+}
+
+.header-mic {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-tools {
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  /* background-color: aliceblue; */
+}
+
+.tools {
+  font-size: 25px;
+  color: white;
+}
+
+.signin-btn {
+  height: 40px;
+  width: 100px;
+  margin: 0px 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: black;
+  border-radius: 25px;
+  color: rgb(97, 156, 238);
+}
+.main-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.main-left {
+  border: 2px solid black;
+  width: 15%;
+}
+
+.main-left > button {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.yt-side-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.yt-side-button > img {
+  border-radius: 50%;
+}
+
+.yt-side-button:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+.side-button-label {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.side-channel-label {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 13px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.icon-bg {
+  background-color: rgb(45, 45, 45);
+}
+
+.thumbnail {
+  margin: 10px;
+  max-width: 400px;
+}
+
+
+.video-title {
+  display: flex;
+  padding: 2px;
+  margin-top: 15px;
+}
+
+.video-info {
+  padding-left: 10px;
+}
+
+.track-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.smaller-fontsize {
+  font-size: smaller;
+}
+
+.yt-pic {
+  border-radius: 10px;
+  width: 380px;
+  height: 220px;
+  display: flex;
+  /* margin: 10px; */
+}
+
+.video-main-page {
+  display: flex;
+  margin: 5px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.video-frame {
+  width: 100%;
+  /* margin-top: 10px; */
+  padding: 20px;
+}
+
+.iframe-video {
+  width: 100%;
+  aspect-ratio: 19/9;
+  border-radius: 2%;
+}
+
+.suggestions > h4 {
+  color: white;
+}
+.suggested-video {
+  display: flex;
+  text-overflow: none;
+  margin-bottom: 30px;
+}
+
+.suggestion-image {
+  /* width: 70%; */
+}
+
+.suggestion-image > img {
+  width: 180px;
+  border-radius: 3%;
+}
+
+.video-info > p {
+  color: rgb(203, 200, 200);
+  margin-top: 2px;
+}
+.video-info-title {
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.white {
+  color: white;
+}
+
+.video-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel-info {
+  display: flex;
+}
+
+.channel-info > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.video-action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.channel-name {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.subscribe {
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  border-radius: 40px;
+  padding: 3px;
+  margin-left: 20px;
+}
+
+.like-button {
+  width: 115px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(45, 45, 45);
+
+  margin: 2px;
+}
+
+.share-button {
+  width: 90px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(45, 45, 45);
+  margin: 2px;
+}
+
+.buttons {
+  background-color: rgb(45, 45, 45);
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.Signin {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topSignIn {
+  /* background-color: gray; */
+  border: 1px solid gray;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.video-action-buttons > button {
+ margin: 5px;
+}
+
+.video-desc {
+  background-color: rgb(45, 45, 45);
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.video-desc > p{
+  background-color: rgb(45, 45, 45);
+  width: 100%;
+ 
+
+
+}
+
+.tools-right {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.user-email {
+  color: green;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.user-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.main-right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+}
+
+.navbar-items {
+  width: fit-content;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 10px 5px 6px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(35, 35, 35);
+}
+
+.yt-channel-icon > img {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+}
+
+.video-name {
+  margin-top: 5px;
+  font-weight: 600;
+}
